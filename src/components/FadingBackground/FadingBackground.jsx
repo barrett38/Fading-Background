@@ -5,25 +5,18 @@ import "./FadingBackground.css";
 var seconds = 3;
 
 // Insert Colors that will transition
-const colors = [
-  "#FF5733",
-  "#33FF57",
-  "#3357FF",
-  "#FF33A1",
-  "#FFD700",
-  "#3357FF",
-];
+const colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#FFD700"];
 
 const FadingBackground = () => {
   const [currentColorIndex, setCurrentColorIndex] = useState(0);
-  var intervalTime = seconds * 1000;
 
   useEffect(() => {
+    var intervalTime = seconds * 1000;
     const interval = setInterval(() => {
       setCurrentColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
     }, intervalTime);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
