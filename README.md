@@ -20,5 +20,3 @@ git clone https://github.com/barrett38/Bubble-Button/tree/main/src/components/bu
 - **Barrett Anderson** - [My Website](http://barrett.vercel.app)
 - **Email:** barrett1614@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/barrett1614/
-
-@Template @Background
