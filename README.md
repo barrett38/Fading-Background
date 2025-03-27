@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-A button that releases Bubbles every time it is clicked.
+Background that transitions between different colors given through JS.
 
 ## 📖 Installation and Cloning
 
@@ -12,9 +12,8 @@ git clone https://github.com/barrett38/Bubble-Button/tree/main/src/components/bu
 
 ## 🛠️ Usage
 
-- **addBubbleToClick.js** is used to create the Bubbles.
-- **Bubbly-Buttons-Styles.css** styles everything.
-- **Bubbly-Button.jsx delivers** everything.
+- **FadingBackground.jsx** uses an array of colors to transition.
+- **FadingBackground.css** allows JSX to be spread accross the view.
 
 ## 📬 Contact
 
@@ -22,4 +21,4 @@ git clone https://github.com/barrett38/Bubble-Button/tree/main/src/components/bu
 - **Email:** barrett1614@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/barrett1614/
 
-@Template @Button
+@Template @Background
