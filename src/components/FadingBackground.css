@@ -1,0 +1,11 @@
+.fading-background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  transition: background-color 2s ease-in-out;
+}
