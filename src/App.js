@@ -1,5 +1,5 @@
 import React from "react";
-import FadingBackground from "./components/FadingBackground";
+import FadingBackground from "./components/FadingBackground/FadingBackground";
 
 function App() {
   return (
