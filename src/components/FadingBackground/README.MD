@@ -10,7 +10,7 @@ Background that transitions between different colors given through JS.
 ## 📖 Installation and Cloning
 
 ```sh
-git clone https://github.com/barrett38/Fading-Background
+git clone https://github.com/barrett38/Fading-Background/tree/main/src/components
 ```
 
 ## 🛠️ Usage
